@@ -1,0 +1,50 @@
+.home {
+	width: 100%;
+	height: 100%;
+}
+
+.nav-wrap {
+	width: 100%;
+	background: #003d74;
+}
+
+.nav {
+	width: 72%;
+	margin-left: 25%;
+	height: 50px;
+}
+
+.nav li {
+	width: 25%;
+	float: left;
+	color: #FFFFFF;
+	line-height: 50px;
+	text-align: center;
+}
+
+.mes {
+	width: 100%;
+	background: #ededed;
+}
+
+.mes-left {
+	float: left;
+	width: 25%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.rijing {
+	float: left;
+	height: 60px;
+	width: 72%;
+}
+
+.rijing li {
+	width: 25%;
+	float: left;
+	line-height: 60px;
+	text-align: center;
+}

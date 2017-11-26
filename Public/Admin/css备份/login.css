@@ -1,0 +1,112 @@
+body{
+  background-color: #FFFFFF;
+}
+
+.reg_div{
+  margin:auto;
+  width: 500px;
+  height: 400px;
+  border:1px solid #333;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 200px;
+  background-color: #ffffff;
+}
+.reg_div p{
+  padding: 30px 0px;
+  font-size: 30px;
+}
+
+.reg_ul{
+  width: 100%;
+}
+.reg_ul li{
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.reg_ul li span:nth-of-type(1){
+  float: left;
+  margin: auto;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.reg_ul li span:nth-of-type(2){
+  float: left;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.reg_ul li input{
+  float: left;
+  width: 228px;
+  height: 30px;
+  border:1px solid #333;
+  border-radius: 3px;
+  padding-left: 20px;
+  outline:medium;
+  margin-left: 10px;
+  color: #222222;
+}
+.reg_ul li>input[type=submit]{
+  margin: auto;
+  color: #ffffff;
+  background-color: #333;
+  padding-right: 20px;
+  font-size: 16px;
+  outline: inherit;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 150px;
+  border: none;
+  line-height: 30px;
+  height: 30px;
+  width: 250px;
+}
+.reg_ul li:nth-of-type(2) span:nth-of-type(1){
+  margin-left: 75px;
+}
+.reg_ul li:nth-of-type(3) span:nth-of-type(1){
+  margin-left: 73px;
+}
+.reg_ul li:nth-of-type(4) span:nth-of-type(1){
+  margin-left: 83px;
+}
+/*.reg_ul li:nth-of-type(5) span:nth-of-type(1){
+  margin-left: 71px;
+}*/
+.login{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.

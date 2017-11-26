@@ -1,0 +1,18 @@
+.s2-top {
+  width: rem(750px);
+  padding-bottom: rem(50px); }
+ .s2-top img {
+    padding-top: rem(100px); }
+
+.s2-back {
+  position: absolute;
+  width: rem(60px);
+  height: rem(60px);
+  background: #ffffff;
+  border-radius: 50%;
+  top: -30px;
+  left: 50px; }
+  .s2-back img {
+  width: rem(60px);}
+
+/*# sourceMappingURL=s2.css.map */

@@ -1,0 +1,52 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, span, a, ul, li, ol, dl, dd, dt, input, select, form, table, td, tr, hr, br, img, select, video, audio, textarea {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    outline: none;
+}
+body {
+    font-size: 14px;
+    font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+    border: 0;
+    background: #fff;
+}
+ul li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #e1e1e1;
+    font-size: 16px;
+}
+.clear::after {
+    content: '.';
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+/*以上是集体声明*/
+.color-r{color: red;}
+.color-g{color:green}
+.footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	width: 150px;
+	background: #2CCF9F;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}	

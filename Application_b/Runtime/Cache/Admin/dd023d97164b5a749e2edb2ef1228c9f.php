@@ -1,0 +1,109 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="<?php echo C('Admin_JS_URL');?>jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo C('Admin_CSS_URL');?>base.css"/>
+    <link rel="stylesheet" href="<?php echo C('Admin_CSS_URL');?>login.css">
+</head>
+<body>
+<div class="reg_div">
+    <p>登录</p>
+    <ul class="reg_ul">
+                <form action="" method="post">                  
+               <!-- <li>
+                    <span>用户名：</span>
+                    <input type="text" name="" value="" placeholder="2-8位汉字" class="reg_user">
+                    <span class="user_hint"></span>
+                </li>-->
+              <li>
+                    <span>用户名：</span>
+                    <input type="tel" name="user" value="" placeholder="输入手机号" class="reg_mobile" maxlength="11">
+                    <span class="mobile_hint"></span>
+                </li>
+                <li>
+                    <span>输入密码：</span>
+                    <input type="password" name="password" value="" placeholder="6-16位密码" class="reg_password">
+                    <span class="password_hint"></span>
+                </li>
+                <li>           
+                    <input type="submit"  class="red_button login" value="登录"/>     
+                </li>
+              
+               
+    </ul>
+                  <form>
+                    <dd style="padding-left:60px;color:red;font-size:14px;">
+                        <?php echo ((isset($errorinfo) && ($errorinfo !== ""))?($errorinfo):""); ?>
+                    </dd>   
+                    </dl>
+                  </form>
+</div>
+</body>
+<script>
+    window.onload =function(){
+        $('.reg_user').focus()
+    }
+    var user_Boolean = false;
+    var password_Boolean = false;
+    var varconfirm_Boolean = false;
+    var emaile_Boolean = false;
+    var Mobile_Boolean = false;
+    $('.reg_user').blur(function(){
+        if (( /^[\u4E00-\u9FA5]{2,8}$/).test($(".reg_user").val())){
+            $('.user_hint').html("✔").css("color","green");
+            user_Boolean = true;
+        }else {
+            $('.user_hint').html("×").css("color","red");
+            user_Boolean = false;
+        }
+    });
+//    以上是用户名
+    $('.reg_password').blur(function(){
+        if ((/^[a-z0-9_-]{6,16}$/).test($(".reg_password").val())){
+            $('.password_hint').html("✔").css("color","green");
+            password_Boolean = true;
+        }else {
+            $('.password_hint').html("×").css("color","red");
+            password_Boolean = false;
+        }
+    });
+     // 密码
+
+    $('.reg_confirm').blur(function(){
+        if (($(".reg_password").val())==($(".reg_confirm").val())){
+            $('.confirm_hint').html("✔").css("color","green");
+            varconfirm_Boolean = true;
+        }else {
+            $('.confirm_hint').html("×").css("color","red");
+            varconfirm_Boolean = false;
+        }
+    });
+    // 再次确认
+
+    $('.reg_mobile').blur(function(){
+        if ((/^1[34578]\d{9}$/).test($(".reg_mobile").val())){
+            $('.mobile_hint').html("✔").css("color","green");
+            Mobile_Boolean = true;
+        }else {
+            $('.mobile_hint').html("×").css("color","red");
+            Mobile_Boolean = false;
+        }
+    });
+// //    手机号
+
+//     $('.red_button').click(function(e){
+//         if(user_Boolean && password_Boolean && varconfirm_Boolean  && Mobile_Boolean == true){
+//             alert("注册成功");                     
+//         }else {
+//             alert("请完善信息");
+//             e.stopPropagation();
+//         }
+//     });
+//    点击事件
+
+
+
+</script>
+</html>

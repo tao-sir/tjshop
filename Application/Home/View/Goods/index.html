@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="{:C('CSS_URL')}base.css"/>
+    <script src="{:C('JS_URL')}jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <title></title>
+    <style type="text/css">
+    	header{position: relative;}
+    	.top{position: absolute;top: 0;left: 0;background: rgba(0,0,0,.2);width: 100%;height: 50px;text-align: center; }
+    	.logo{}
+    	.shop{position: absolute;top: 5px;right: 25px;}
+    	.nav{width: 100%;padding: 25px 0;}
+    	.nav>li{width: 25%;float: left;text-align: center;}
+    	.newSection{width: 98%;margin: 0 auto;}
+    	.newSection>li{width:49%;text-align: center;margin-top:10px;}
+    	.newSection>li:nth-of-type(odd){float: right;}
+    	.newSection>li:nth-of-type(even){float: left;}
+    	.newSection>li p{padding: 3px 0;}
+    	.newSection>li p:nth-of-type(1){margin-top: 10px;}
+    	.col-blue{color: #6bc6f8;font-size: 18px;}    	   	
+    </style>
+
+</head>
+<body>
+	<header>
+		<div class="top">
+			<img src="{:C('IMGS_URL')}logo.png" width="110" class="logo">
+			<img src="{:C('IMGS_URL')}shop.png" width="32" alt="" class="shop">
+		</div>
+		<img src="{:C('IMGS_URL')}banner.png" width="100%"/>
+	</header>
+	<ul class="nav clear">
+			<li>
+			<img src="{:C('IMGS_URL')}nav1.png" width="100%">
+			<p>大米</p>
+			</li>
+		<li>
+			<img src="{:C('IMGS_URL')}nav2.png" width="100%">
+			<p>白酒</p>
+		</li><li>
+			<img src="{:C('IMGS_URL')}nav3.png" width="100%">
+			<p>矿泉水</p>
+		</li><li>
+			<img src="{:C('IMGS_URL')}nav4.png" width="100%">
+			<p>红酒</p>
+		</li>		
+	</ul>
+	<ul class="newSection">
+		<li>
+			<a href=""><img src="{:C('IMGS_URL')}newSection2.png" width="100%">
+			<p>酱香原酒</p>
+			<p class="col-blue">￥299.0元</p></a>
+		</li>
+		<li>
+			<a href=""><img src="{:C('IMGS_URL')}newSection1.png" width="100%">
+				<p>元阳原生·天然有机大米</p>
+				<p class="col-blue">￥169.0元</p></a>
+		</li>
+		<li>
+			<a href=""><img src="{:C('IMGS_URL')}newSection4.png" width="100%">
+			<p>干红红酒</p>
+			<p class="col-blue">￥500元</p></a>
+		</li>
+		<li>
+			<a href=""><img src="{:C('IMGS_URL')}newSection3.png" width="100%">
+			<p>天机山泉矿物质水</p>
+			<p class="col-blue">￥2.0元</p></a>
+		</li>
+	</ul>
+	<include file="Public:bottom" />
+</body>
+</html>

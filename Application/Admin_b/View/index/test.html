@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="{:C('Admin_CSS_URL')}base.css"/>
+    <link rel="stylesheet" href="{:C('Admin_CSS_URL')}table.css" />
+    <script src="{:C('Admin_JS_URL')}jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+    		body{height: 600px;}
+    		.pop2,.pop3{width:400px;height:120px;position: fixed;top:30%;left: 20%;border: 1px solid #222222;font-size: 16px;display: none;padding: 20px;z-index: 3;}
+    </style>
+    <title></title>  
+</head>
+<body>
+	<form action="" method="post">				
+	<table border="0" cellspacing="0" cellpadding="10" id="table1">		
+		<tr><td>客户归属：</td><td><input type="text" name="" id="" value="" /></td><td>电话：</td><td><input type="tel" name="" id="" value="" /></td><td class="color-l"><input type="submit" value="查询" class="search"/></td></tr>
+	</table>
+	</form>
+	<table border="0" cellspacing="0px" cellpadding="10px" id="table2" >	
+		<tr><th>序号</th><th>电话</th><th>姓名</th><th>分身证号</th><th>开户时间</th><th>所属特约</th><th>所属经销</th><th>所属代理</th><th>密码修改</th><th>权限设置</th><th>删除</th><th>原登录密码</th></tr>
+		<tr><td>1</td><td>13503816234</td><td>张三</td><td>410526199010218255</td><td>2017-06-05</td>
+			<td>一级</td><td>河南科技有限公司</td><td>二级</td><td class=""><p class="change color-l">登录密码</p><p class="color-b change2">资金密码</p></td><td class="color-l set">点击设置</td>
+			<td class="color-r del">删除</td>		
+			<td class="pop2 tan">
+				<form action="" method="post" class="sets">
+				<label for="">登录密码修改：</label>
+				<input type="text"  class="xiugai"/><br />						
+				<input type="button" value="确定"/ id="sure2">
+				</form>
+			</td>	
+			<td class="mima">0000</td>	
+		</tr>					
+	</table>
+	
+		
+</body>
+<script type="text/javascript">
+$('.change').click(function(e){			
+		e.stopPropagation();					
+		$('.pop2').css('background','#FFFFFF').show();
+		$('body').css("background","rgba(22,22,22,.5)"); 			
+})
+$('#sure2').click(function(e){
+	e.stopPropagation();
+	var v =$(this).siblings('.xiugai').val();
+	console.log(v);
+	$(this).parent().next().text(v)
+})
+
+
+
+$('input[type=text]').click(function(e){
+	e.stopPropagation();
+});
+$('select').click(function(e){
+	e.stopPropagation();
+})
+$('.change2').click(function(e){
+		e.stopPropagation();
+		$('.pop3').css('background','#FFFFFF').show();
+		$('body').css("background","rgba(22,22,22,.5)");		
+	
+});
+
+
+
+$('.set').click(function(e){
+	e.stopPropagation();
+	$('.pop').css('background','#FFFFFF').show();
+	$('body').css("background","rgba(22,22,22,.5)"); 
+});
+$('.del').click(function(e){
+	e.stopPropagation();
+	$(this).parent().remove()
+});
+
+$('body').click(function(){
+	$('.tan').hide();
+	$('body').css("background","rgba(22,22,22,0)");
+});
+
+</script>
+
+</html>

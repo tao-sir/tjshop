@@ -1,0 +1,71 @@
+.top {
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background: #2cb2cf;
+	color: #FFFFFF;
+	font-size: 18px;
+	position: relative;
+}
+
+.title {
+	margin-left: 30px;
+}
+
+.title3 {
+	margin-left: 400px;
+}
+
+.top input{		
+}
+#exit,#change{position: absolute;top: 28px;font-size: 18px;}
+#exit{right: 15%;}
+#change{right: 20%;}
+/*以上是头部*/
+.menu {
+	width: 200px;
+	border: 1px solid #2CB2CF;
+	font-size: 18px;
+	padding: 20px 20px 120px 20px;
+	background: #2ccf9f;
+	color: #FFFFFF;
+	float: left;
+}
+
+.list {
+	height: 40px;
+	line-height: 40px;
+	margin-top: 30px;
+}
+
+.list>img {
+	margin-top: 10px;
+}
+
+.in-text {
+	margin-left: 30px;
+}
+
+.mains {
+	display: none;
+	padding-left: 50px;
+	font-size: 16px;
+}
+
+.li-main {}
+
+.li-main li {
+	line-height: 30px;
+	height: 30px;
+}
+
+.li-main li a {
+	color: #FFFFFF;
+}
+
+.right {
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	border: 1px solid #E1E1E1;
+}

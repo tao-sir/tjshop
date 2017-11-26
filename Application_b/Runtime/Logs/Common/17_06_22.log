@@ -1,0 +1,42 @@
+[ 2017-06-22T10:56:52+08:00 ] 123.151.42.49 /tjshop/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:User
+
+[ 2017-06-22T10:57:00+08:00 ] 182.119.74.109 /tjshop/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:User
+
+[ 2017-06-22T10:57:02+08:00 ] 101.226.65.107 /tjshop/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:User
+
+[ 2017-06-22T10:57:06+08:00 ] 180.153.160.61 /tjshop/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:User
+
+[ 2017-06-22T11:27:25+08:00 ] 219.156.114.91 /tjshop/index.php/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Client
+
+[ 2017-06-22T13:47:35+08:00 ] 117.86.202.183 /tjshop/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:User
+
+[ 2017-06-22T13:47:38+08:00 ] 220.175.156.54 /tjshop/index.php/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013672s ]
+ERR: 无法加载模块:User
+

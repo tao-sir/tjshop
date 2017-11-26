@@ -1,0 +1,16 @@
+		.mes{width: 100%;height: 100%;background: #E1E1E1;}
+    	#table2 {margin-top: 20px;}
+    	 th{border: 1px solid #333333;}
+    	 td{border: 1px solid #333333;text-align: center;line-height: 30px;}
+    	input{color: #222222;line-height: 30px;text-indent: 10px;}
+    	.color-l{background: #2CB2CF;color: #FFFFFF;outline: #E1E1E1;}
+    	.color-b{background: #2CCF9F;color: #FFFFFF;outline: #E1E1E1;}
+    	.color-r{background: red;color: #FFFFFF;}
+    	.search{color: #FFFFFF;}
+    	/*表格样式*/
+    	.pop{width: 400px;height:300px;position: fixed;top:30%;left: 20%;border: 1px solid #222222;font-size: 16px;display: none;padding: 20px;z-index: 3;}
+    	.sets input{border: 1px solid #333333;}
+    	.sets label{width: 120px;float: left;}
+    	#sure,#refuse,#sure2,#sure3{width: 150px;background: #2CB2CF;color: #FFFFFF;border: none;margin-top: 20px;}
+		#refuse{margin-left: 20px;}
+    	/*弹窗样式*/

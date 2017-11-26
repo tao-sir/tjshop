@@ -1,0 +1,22 @@
+.nav {
+	width: 100%;
+}
+
+.nav li {
+	float: left;
+	width: 100px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.nav li.active {
+	background: #0070a2;
+	color: #FFFFFF;
+}
+
+table {
+	margin-top: 30px;
+}
+#table1 td,#table2 td,#table3 td{border: none;}

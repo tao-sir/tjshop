@@ -1,0 +1,83 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="<?php echo C('CSS_URL');?>base.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo C('CSS_URL');?>recharge.css"/>
+    <script type="text/javascript" src="<?php echo C('JS_URL');?>jquery.min.js"></script>
+   	<style type="text/css">
+   		.pupon{
+   			width: 70%;position: fixed;top: 150px;left: 15%;background: #FFFFFF;height: 150px;z-index: 10;text-align: center;font-size: 18px;display: none;
+   		}
+   		.pupon p{line-height: 40px;margin-top: 20px;}
+   		.alls{width: 100%;height: 100%;position: fixed;top: 0;left: 0;opacity: 0.5;background: #38536B;display: none;z-index: 1;}
+   		.charge{width: 75%;margin-top: 30px;background: #0C86E5;color: #FFFFFF;line-height: 30px;border: none;}
+   	</style>
+   
+</head>
+<body>
+	<div class="header">
+		<div class="back">
+			<a href="recharge_ts.html"><img src="<?php echo C('IMG_URL');?>back.png" width="12"/></a>
+			
+		</div>
+		充值
+	</div>
+	<div class="card-wrap">
+		<div class="addcard clear">
+			<a href="addcard.html"><div class="card">
+				添加银行卡
+			</div></a>
+			
+			<!--<div class="third">
+				第三方
+			</div>-->
+		</div>
+		<ul class="card-gem">
+			<li>工商银行  6217**********1254</li>
+			 <button class="charge">点击充值</button>
+		</ul>
+		
+	</div>
+	<div class="card-mes">
+		<p>工商银行  6217**********1254</p>
+		<form action="" method="post">
+		<ul class="card-form">											
+			<li>额度：<input type="text" name="" id="" value="" /></li>
+			<li>密码：<input type="password" name="" id="" value="" /></li>
+			<li class="login"><input type="submit" id="log" value="充值" ></li>		
+		</ul>
+		</form>	
+	</div>
+	<div class="pupon">
+		<p>支付宝</p>
+		<p>微信</p>
+	</div>
+	<div class="alls">
+		
+	</div>
+	<script type="text/javascript">
+		$('.third').click(function(){
+			$('.pupon').show()
+			$('.alls').show()
+		});
+		$('.alls').click(function(){
+			$('.pupon').hide()
+			$('.alls').hide()
+			$('.card-mes').hide()
+		});
+		$('.charge').click(function(){
+			$('.card-mes').show()
+			$('.alls').show()
+			console.log(123)
+		});
+		$('.login').click(function(){
+			$('.card-mes').hide();
+			$('.alls').hide()
+			
+		})
+	</script>
+</body>
+</html>

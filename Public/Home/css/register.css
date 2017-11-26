@@ -1,0 +1,72 @@
+      .wrap {
+      	width: 80%;
+      	margin-left: 10%;
+      	padding-top: 25%
+      }
+      
+      .wrap li {
+      	width: 100%;
+      	height: 50px;
+      	
+      }    
+      .wrap label {
+      	width: 80px;
+      	height: 50px;
+      	line-height: 40px;
+      	display: inline-block;
+      	font-size: 16px;
+      	color: #FFFFFF;
+      }
+      .outer{
+			width: 100%;background: url(../img/bg1.jpg) top center no-repeat;
+			background-size: 100% 100%;
+		}
+ ::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #666;
+	font-size: 14px;
+}
+      .wrap input {
+      	line-height: 30px;
+      	height: 30px;
+      	border-bottom: 1px solid #f1dc86;
+      	color: #fff
+      }      
+      #send2 {
+      	width: 100%;
+      	background: #d8d003;
+      	border-radius: 5px;
+      	margin: 20px auto;
+      	border: none;
+      	color: #222
+      }
+      
+      #error {
+      	font-size: 14px;
+      	color: red
+      }
+      #error2 {
+      	font-size: 14px;
+      	color: red
+      }
+      
+      .getparent {
+      	position: relative;
+      }
+      
+      .get {
+      	position: absolute;
+      	right: 50px;
+      	bottom: 20px;
+      }
+      @media only screen and (min-width: 200px) and (max-width: 360px) {
+      	 .wrap label {
+      		width: 60px;
+      		font-size: 12px;
+     		 };
+     		   #error {
+      	font-size: 12px;
+      
+     		 };
+     		  .wrap input{width: 150px;}      
+      }

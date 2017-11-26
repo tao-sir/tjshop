@@ -1,0 +1,30 @@
+	<div class="pop tan">
+
+
+		<form action="{:U('upuser',array('userid'=>session('user_id')))}" method="post" class="sets">
+		<label for="">公司名称：</label>
+		<input type="hidden" name="tel" value=""/>
+			<input type="text" name="compname" value="{$info['compname']}" /><br />
+			<label for="">公司电话：</label>
+			<input type="text" name="compphone" id="" value="" /><br />
+			<label for="">编号：</label>
+			<input type="text" name="compcode" />
+			<br />
+			<label for="" class="user-s">管理员：</label>
+			<input type="radio" name="isadmin" value="1"/>
+			是
+			<input type="radio" name="isadmin" value="0"/>
+			否<br />
+			<select name="usernature">				
+				<option value="">级别：</option>
+				<option value="1">核心合作商</option>
+				<option value="2">特约经销商</option>				
+				<option value="3">经销商</option>
+				<option value="4">居间商</option>
+			</select><br />
+			<input type="submit" value="确定"/ id="sure">
+		</form>
+
+
+		<span class="close">X</span>
+	</div>

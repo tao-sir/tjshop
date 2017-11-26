@@ -1,0 +1,570 @@
+[ 2017-07-01T08:48:02+08:00 ] 183.47.203.22 /tjshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Goods - assumed 'Goods' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\aa538a209ecc2e6816784a7a5a940a4e.php 第 70 行.
+NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\aa538a209ecc2e6816784a7a5a940a4e.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T08:55:25+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/subscribe/active/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007813s ]
+NOTIC: [8] Undefined index: user D:\phpStudy\WWW\tjshop\Application\Home\Controller\PublicController.class.php 第 11 行.
+
+[ 2017-07-01T08:55:25+08:00 ] 183.47.203.22 /tjshop/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-07-01T08:55:42+08:00 ] 183.47.203.22 /tjshop/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003906s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '13601680320' AND `password` = '9a128c804e2275c6c92334ef1974984f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `user` SET `logintime`='2017-07-01 08:55:42' WHERE ( usercode = 13601680320 ) [ RunTime:0.0293s ]
+
+[ 2017-07-01T08:55:43+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ttproduct` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `ttproduct` WHERE ( producttype=0 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: rose1 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 50 行.
+NOTIC: [8] Undefined variable: rose2 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 51 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 42 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 44 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 54 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 57 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 59 行.
+NOTIC: [8] Use of undefined constant Goods - assumed 'Goods' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 85 行.
+NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T08:55:57+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Public/tishi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T08:56:03+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/shengou.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `ttproduct` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ttproduct` WHERE `issuestatus` = 1  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 494 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 498 行.
+NOTIC: [8] Undefined variable: average2 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 505 行.
+NOTIC: [8] Undefined variable: average3 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 506 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\5b0c7594184d80b042ed77640f37e189.php 第 51 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\5b0c7594184d80b042ed77640f37e189.php 第 52 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\5b0c7594184d80b042ed77640f37e189.php 第 53 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\5b0c7594184d80b042ed77640f37e189.php 第 54 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\5b0c7594184d80b042ed77640f37e189.php 第 72 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\5b0c7594184d80b042ed77640f37e189.php 第 73 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\5b0c7594184d80b042ed77640f37e189.php 第 74 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\5b0c7594184d80b042ed77640f37e189.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T08:56:11+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/ask_for.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `subscribe` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ttproduct` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `ttproduct` WHERE `productname` = '坤宝' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `subscribe` WHERE ( userid=53 and productid =3  ) ORDER BY ts desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( userid=53 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-07-01T08:56:26+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/ask_for.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `subscribe` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ttproduct` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ttproduct` WHERE `productname` = '坤宝' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `subscribe` WHERE ( userid=53 and productid =3  ) ORDER BY ts desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `user` WHERE ( userid=53 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-07-01T08:56:31+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/person.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( userid=53 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Goods - assumed 'Goods' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\8571270d6619e5b554873f4047466c88.php 第 146 行.
+NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\8571270d6619e5b554873f4047466c88.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T08:56:37+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Public/tishi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T08:56:42+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/personmsg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '13601680320' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T08:56:49+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/person.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE ( userid=53 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Goods - assumed 'Goods' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\8571270d6619e5b554873f4047466c88.php 第 146 行.
+NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\8571270d6619e5b554873f4047466c88.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T08:56:52+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/inventory.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+SQL: SHOW COLUMNS FROM `userstock` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `userstock` WHERE `userid` = 53 ORDER BY productid asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 334 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 334 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 334 行.
+NOTIC: [8] Undefined variable: profit D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 367 行.
+NOTIC: [8] Undefined variable: profit2 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 368 行.
+NOTIC: [8] Undefined variable: profit3 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 369 行.
+NOTIC: [8] Undefined variable: rstt1 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 371 行.
+NOTIC: [8] Undefined variable: rstt2 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 372 行.
+NOTIC: [8] Undefined variable: rstt3 D:\phpStudy\WWW\tjshop\Application\Home\Controller\IndexController.class.php 第 373 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\3df19bc5d9ee303967560a66ce6e017a.php 第 30 行.
+NOTIC: [8] Undefined offset: 0 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\3df19bc5d9ee303967560a66ce6e017a.php 第 31 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\3df19bc5d9ee303967560a66ce6e017a.php 第 47 行.
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\3df19bc5d9ee303967560a66ce6e017a.php 第 48 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\3df19bc5d9ee303967560a66ce6e017a.php 第 64 行.
+NOTIC: [8] Undefined offset: 2 D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\3df19bc5d9ee303967560a66ce6e017a.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T08:56:56+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/person.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` WHERE ( userid=53 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Goods - assumed 'Goods' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\8571270d6619e5b554873f4047466c88.php 第 146 行.
+NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\8571270d6619e5b554873f4047466c88.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T09:07:37+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/personmsg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006836s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '13601680320' LIMIT 1   [ RunTime:0.0146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005860s ]
+
+[ 2017-07-01T09:07:40+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/person.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `user` WHERE ( userid=53 ) LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001953s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001953s ]
+NOTIC: [8] Use of undefined constant Goods - assumed 'Goods' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\8571270d6619e5b554873f4047466c88.php 第 146 行.
+NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\8571270d6619e5b554873f4047466c88.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T09:07:42+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/bankcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `bankcard` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bankcard` WHERE ( userid=53 ) ORDER BY ts asc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\b13b0ff27f20b49ff35ab259696fb87f.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T09:07:45+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/addcard.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T09:07:48+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/bankcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bankcard` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `bankcard` WHERE ( userid=53 ) ORDER BY ts asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\b13b0ff27f20b49ff35ab259696fb87f.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T09:07:58+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/bankcar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `bankcard` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `bankcard` WHERE ( userid=53 ) ORDER BY ts asc  [ RunTime:0.0117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\b13b0ff27f20b49ff35ab259696fb87f.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T09:08:00+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Index/person.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `user` WHERE ( userid=53 ) LIMIT 1   [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Goods - assumed 'Goods' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\8571270d6619e5b554873f4047466c88.php 第 146 行.
+NOTIC: [8] Use of undefined constant Notice - assumed 'Notice' D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Home\8571270d6619e5b554873f4047466c88.php 第 155 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2017-07-01T09:08:02+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Public/tishi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T09:08:08+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Public/tishi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T09:08:13+08:00 ] 183.47.203.22 /tjshop/index.php/Home/Public/tishi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000976s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-01T11:38:52+08:00 ] 61.52.49.8 /tjshop/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

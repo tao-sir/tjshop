@@ -1,0 +1,12 @@
+[ 2017-07-04T19:37:26+08:00 ] 125.46.131.78 /index.php/wx.php/jsApiParameters/%7B%22appId%22%3A%22wx2932a10a3ce913a1%22%2C%22nonceStr%22%3A%225dchlqep1sxu36msd7bxqu0e2ryhb2y0%22%2C%22package%22%3A%22prepay_id%3Dwx2017070419372526d0cf2dfa0464891904%22%2C%22signType%22%3A%22MD5%22%2C%22timeStamp%22%3A%221499168246%22%2C%22paySign%22%3A%229D64E0C705A6609795F61C492FAF9672%22%7D.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Wx.php
+
+[ 2017-07-04T19:37:36+08:00 ] 61.151.218.118 /index.php/wx.php/jsApiParameters/%7B%22appId%22%3A%22wx2932a10a3ce913a1%22%2C%22nonceStr%22%3A%225dchlqep1sxu36msd7bxqu0e2ryhb2y0%22%2C%22package%22%3A%22prepay_id%3Dwx2017070419372526d0cf2dfa0464891904%22%2C%22signType%22%3A%22MD5%22%2C%22timeStamp%22%3A%221499168246%22%2C%22paySign%22%3A%229D64E0C705A6609795F61C492FAF9672%22%7D.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Wx.php
+

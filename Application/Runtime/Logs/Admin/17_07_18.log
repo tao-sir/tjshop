@@ -1,0 +1,249 @@
+[ 2017-07-18T13:46:29+08:00 ] 61.52.54.94 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: admin D:\phpStudy\WWW\tjshop\Application\Admin\Controller\PublicController.class.php 第 9 行.
+
+[ 2017-07-18T13:46:29+08:00 ] 61.52.54.94 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-18T13:46:34+08:00 ] 61.52.54.94 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = 'admin' AND `password` = 'd40a32d889fab5d685bcdd6accb84dbf' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `user` WHERE ( FIND_IN_SET(1,upuserid) )  [ RunTime:0.0000s ]
+
+[ 2017-07-18T13:46:34+08:00 ] 61.52.54.94 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-18T13:46:34+08:00 ] 61.52.54.94 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-18T13:46:36+08:00 ] 61.52.54.94 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-18T13:46:39+08:00 ] 61.52.54.94 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `user` WHERE `compname` = '天机' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE ( find_in_set(1,upuserid) )  [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 3 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','76') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','76') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','76') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','76') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','77') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','77') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','77') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','77') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

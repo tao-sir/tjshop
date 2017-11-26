@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>天机电商</title>
+    <link rel="stylesheet" href="{:C('CSS_URL')}base.css" />
+    <link rel="stylesheet" type="text/css" href="{:C('CSS_URL')}index.css"/>
+    <script type="text/javascript" src="{:C('JS_URL')}jquery.min.js"></script>
+   
+  
+</head>
+<body>
+	<div id="app">
+		<div class="home">
+			<div class="banner">
+				<img src="{:C('IMG_URL')}banner.png" width="100%" alt="" />
+			</div>
+			<div class="nav-wrap">
+				<ul class="nav clear">
+				<li>开市价</li>
+				<li>最新价</li>
+				<li>涨幅</li>
+				<li>收盘价</li>
+				</ul>
+			</div>
+			<div class="mes clear">
+				<a href="{:U('Index/rijing')}">
+					<div class="mes-left">{$data[0].productname}</div>
+					<ul class="rijing clear">
+						<li>{$data[0].openprice}</li>
+						<li class="color-r">{$data[0].currentprice}</li>
+						<li class="color-r">{$rose1}%</li>
+						<li class="color-b">{$data[0].closeprice}</li>
+					</ul>
+				</a>	
+			</div>
+			<div class="mes clear" style="background: none;">
+				<a href="{:U('Index/yuehua')}">
+					<div class="mes-left">{$data[1].productname}</div>
+					<ul class="rijing clear">
+						<li>{$data[1].openprice}</li>
+						<li class="color-r">{$data[1].currentprice}</li>
+						<li class="color-r">{$rose2}%</li>
+						<li class="color-b">{$data[1].closeprice}</li>
+					</ul>
+				</a>	
+			</div>
+			<div class="mes clear">
+				<a href="{:U('Index/kunbao')}">
+					<div class="mes-left">{$data[2].productname}</div>
+					<ul class="rijing clear">
+						<li>{$data[2].openprice}</li>
+						<li class="color-r">{$data[2].currentprice}</li>
+						<li class="color-r">{$rose3}%</li>
+						<li class="color-b">{$data[2].closeprice}</li>
+					</ul>
+				</a>	
+			</div>
+		</div>
+		<include file="Public:bottom" />
+	</div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{background: #EDEDED;}
+.card-wrap {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 10px;
+	
+}
+
+.addcard {
+	width: 100%;
+}
+
+.card {
+	width: 75%;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	/*border: 1px #222222 dashed;*/
+	border-radius: 5px;
+	padding-left: 15px;
+	background: #FFFFFF;
+}
+
+.third {
+	width: 15%;
+	float: right;
+	line-height: 50px;
+	height: 50px;
+	border: 1px #222222 dashed;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.card-gem {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.card-gem li {
+	line-height: 50px;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-top: 20px;
+	width: 75%;
+	padding-left:10px;
+
+
+	background: #FFFFFF;
+}
+
+.card-mes {
+	width: 100%;
+	background:#FFFFFF;
+	text-align: center;
+	margin-top: 60px;
+	padding: 20px 0;
+	display: none;
+	z-index: 5;
+	position: relative;
+}
+
+.card-form {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+.card-form>li {
+	width: 100%;
+	border-bottom: 1px solid #222222;
+	line-height: 30px;
+	margin-top: 20px;
+}
+
+.card-form>li input {
+	line-height: 30px;
+	color: #222222;
+}
+
+.card-form>li.login {
+	background: #0C86E5;
+	margin-top: 20px;
+	border: none;
+	
+}
+#log{
+	color: #FFFFFF !important;
+}

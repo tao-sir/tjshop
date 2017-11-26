@@ -1,0 +1,19 @@
+body {
+	width: 100%;
+	height: 600px;
+}
+
+.pop {
+	height: 100px;
+}
+
+.sub,
+.add {
+	text-align: center;
+	padding-right: 5px;
+}
+
+.count {
+	width: 50px;
+}
+

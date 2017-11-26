@@ -1,0 +1,19 @@
+.s1-back {
+  position: absolute;
+  width: rem(60px);
+  height: rem(60px);
+  background: #ffffff;
+  border-radius: 50%;
+  top: rem(-80px);
+  left: rem(-240px); }
+  .s1-back img {
+    width: rem(60px); }
+
+.s1-top {
+  width: rem(138px);
+  text-align: center; }
+  .s1-top img {
+    margin-left: rem(260px);
+    padding-top: rem(100px); }
+
+/*# sourceMappingURL=s1.css.map */

@@ -1,0 +1,1039 @@
+[ 2017-07-12T15:22:10+08:00 ] 1.192.83.178 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: admin D:\phpStudy\WWW\tjshop\Application\Admin\Controller\PublicController.class.php 第 9 行.
+
+[ 2017-07-12T15:22:10+08:00 ] 1.192.83.178 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-07-12T15:22:20+08:00 ] 117.185.27.115 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:20+08:00 ] 61.151.218.119 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: admin D:\phpStudy\WWW\tjshop\Application\Admin\Controller\PublicController.class.php 第 9 行.
+
+[ 2017-07-12T15:22:20+08:00 ] 61.151.218.119 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:22+08:00 ] 1.192.83.178 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' AND `password` = 'c3ad8997207c3146107a03dbc0d38308' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `user` WHERE ( FIND_IN_SET(73,upuserid) )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: d D:\phpStudy\WWW\tjshop\Application\Admin\Controller\UserController.class.php 第 31 行.
+
+[ 2017-07-12T15:22:22+08:00 ] 1.192.83.178 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:22+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:23+08:00 ] 101.226.68.161 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:24+08:00 ] 101.226.125.100 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: admin D:\phpStudy\WWW\tjshop\Application\Admin\Controller\PublicController.class.php 第 9 行.
+
+[ 2017-07-12T15:22:24+08:00 ] 101.226.125.100 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:32+08:00 ] 61.151.226.202 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: admin D:\phpStudy\WWW\tjshop\Application\Admin\Controller\PublicController.class.php 第 9 行.
+
+[ 2017-07-12T15:22:32+08:00 ] 61.151.226.202 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:36+08:00 ] 101.226.125.100 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: admin D:\phpStudy\WWW\tjshop\Application\Admin\Controller\PublicController.class.php 第 9 行.
+
+[ 2017-07-12T15:22:36+08:00 ] 101.226.125.100 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:44+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:45+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:46+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:48+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:49+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:50+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:50+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:51+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:52+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:53+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:53+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:53+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:54+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:54+08:00 ] 1.192.83.178 /index.php/Admin/Fund/fundSelect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:54+08:00 ] 1.192.83.178 /index.php/Admin/Fund/fundSelect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:54+08:00 ] 1.192.83.178 /index.php/Admin/Fund/fundSelect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:55+08:00 ] 1.192.83.178 /index.php/Admin/Fund/fundSelect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:55+08:00 ] 1.192.83.178 /index.php/Admin/Fund/zijin1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: form1tel D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 18 行.
+NOTIC: [8] Undefined variable: form1keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 20 行.
+NOTIC: [8] Undefined variable: form1data D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:55+08:00 ] 1.192.83.178 /index.php/Admin/Fund/zijin1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: form1tel D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 18 行.
+NOTIC: [8] Undefined variable: form1keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 20 行.
+NOTIC: [8] Undefined variable: form1data D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:58+08:00 ] 1.192.83.178 /index.php/Admin/Fund/fundquery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\FundController.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: form1tel D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 18 行.
+NOTIC: [8] Undefined variable: form1keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:23:00+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:23:14+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE ( FIND_IN_SET(73,upuserid) ) AND `usercode` = '15938102308'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:23:15+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE ( FIND_IN_SET(73,upuserid) ) AND `usercode` = '15938102308'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:23:17+08:00 ] 1.192.83.178 /index.php/Admin/Index/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:23:17+08:00 ] 1.192.83.178 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:44:47+08:00 ] 1.192.83.178 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' AND `password` = 'c3ad8997207c3146107a03dbc0d38308' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `user` WHERE ( FIND_IN_SET(73,upuserid) )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: d D:\phpStudy\WWW\tjshop\Application\Admin\Controller\UserController.class.php 第 31 行.
+
+[ 2017-07-12T15:44:47+08:00 ] 1.192.83.178 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:44:47+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:44:50+08:00 ] 1.192.83.178 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '15938102308' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

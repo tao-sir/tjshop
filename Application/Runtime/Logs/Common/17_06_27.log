@@ -1,0 +1,6 @@
+[ 2017-06-27T23:58:11+08:00 ] 110.75.242.149 /tjshop/index.php/Alipay/orderRecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010742s ]
+ERR: 无法加载模块:Alipay
+

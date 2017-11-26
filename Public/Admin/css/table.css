@@ -1,0 +1,34 @@
+﻿		.mes{width: 100%;height: 100%;background: #E1E1E1;}
+    	#table2 {margin-top: 20px;}
+    	 th{border: 1px solid #0070a2;}
+    	 td{border: 1px solid #0070a2;text-align: center;line-height: 30px;vertical-align: middle; }
+    	input{color: #222222;line-height: 30px;text-indent: 10px;}
+    	.color-l{background: #2CB2CF;color: #FFFFFF;outline: #E1E1E1;border: none;}
+    	.color-b{background: #2CCF9F;color: #FFFFFF;outline: #E1E1E1;}
+    	.color-r{background: red;color: #FFFFFF;}
+		.color-r a{color: #fff}
+    	.search,.search1,.search2,.search3{color: #FFFFFF;padding-right: 10px;}
+    	.cli{border: none;}    	  	
+    	/*表格样式*/
+    	.pop{width: 400px;height:300px;position: fixed;top:30%;left: 20%;border: 1px solid #222222;font-size: 16px;display: none;padding: 20px;z-index: 3;}
+    	.sets input{border: 1px solid #333333;}
+    	.sets label{width: 120px;float: left;}
+    	#sure,#refuse,#sure2,#sure3{width: 150px;background: #2CB2CF;color: #FFFFFF;border: none;margin-top: 20px;}
+		#refuse{margin-left: 20px;}						
+    	/*弹窗样式*/   	
+    	   table th{
+            white-space: nowrap;
+        	}
+       	 	table td{
+            white-space: nowrap;
+        	}
+  			table{
+        	 empty-cells:show; 
+         	border-collapse: collapse;
+       		 }       		        		        		 
+       		 #table1{margin-top: 10px;}
+       		 #table1 td{border: none;}
+       		 .msg,.tel{border-bottom: 1px solid #0070a2;}
+    	
+
+		

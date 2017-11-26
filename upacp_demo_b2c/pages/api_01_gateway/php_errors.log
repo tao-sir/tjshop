@@ -1,0 +1,2 @@
+[20-Jul-2017 13:29:57 PRC] PHP Warning:  include(D:/phpStudy/WWW/PHP_Version_SDK/upacp_sdk_php/pages/more_faq.php): failed to open stream: No such file or directory in D:\phpStudy\WWW\PHP_Version_SDK\upacp_demo_b2c\pages\api_01_gateway\file_transfer.php on line 35
+[20-Jul-2017 13:29:57 PRC] PHP Warning:  include(): Failed opening 'D:/phpStudy/WWW/PHP_Version_SDK/upacp_sdk_php/pages/more_faq.php' for inclusion (include_path='.;C:\php\pear') in D:\phpStudy\WWW\PHP_Version_SDK\upacp_demo_b2c\pages\api_01_gateway\file_transfer.php on line 35

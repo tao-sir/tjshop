@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="{:C('CSS_URL')}base.css" />
+    <link rel="stylesheet" href="{:C('CSS_URL')}shopcar.css" />
+    <script type="text/javascript" src="{:C('JS_URL')}jquery.min.js"></script>
+    <style>
+        .deal-mes li:nth-of-type(3) {
+            width: 40%;
+        }
+        .deal-nav li:nth-of-type(3) {
+            width: 40%;
+        }
+    </style>
+
+   
+</head>
+<body>
+	<div class="header">
+		<div class="back">
+			<a href="person.html"><img src="{:C('IMG_URL')}back.png" width="12"/></a>
+		</div>
+		充值记录
+	</div>
+	<ul class="deal-nav clear">
+		<li class="nav-cen">充值金额</li>
+		<li class="nav-cen">充值类型</li>
+		<li class="nav-right">充值时间</li>
+        <li class="nav-cen">状态</li>
+	</ul>
+	<volist name="recharge" id="data">
+		<ul class="deal-mes clear bg">
+			<li class="nav-cen">{$data.money}</li>
+			<li class="nav-cen">
+                <if condition="$data.topuptype eq 1">支付宝
+                <elseif condition="$data.topuptype  eq 2"/>微信
+                    <elseif condition="$data.topuptype  eq 3"/>网银
+                </if>
+            </li>
+			<li class="nav-right cloor-g">{$data.ts}</li>
+            <li class="nav-right cloor-g">
+                <if condition="$data.topupstatus eq 1">成功
+                    <else /><span style="color:red">失败</span>
+                </if>
+            </li>
+		</ul>
+	</volist>
+	
+	
+
+</body>
+</html>

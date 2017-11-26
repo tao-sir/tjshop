@@ -1,0 +1,69 @@
+.r-mes {
+	width: 100%;
+	margin-top: 20px;
+	background: #64a8dd;
+	color: #FFFFFF;
+	height: 50px;
+}
+
+.r-mes li {
+	float: left;
+	width: 16.6%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.r-mes li.tabhover {
+	background: #003d74;
+}
+
+.buy-in {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #64a8dd;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+
+.buy-in span {
+	margin-left: 20px;
+}
+
+.buy-main {
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px 0;
+	font-size: 16px;
+}
+
+.line {
+	border: 1px #0C86E5 dashed;
+	padding: 10px 20px;
+}
+
+.buy-main input {
+	color: #222222;
+	font-size: 16px;
+}
+
+.buy-main input[type=text] {
+	width: 30px;
+	text-align: center;
+}
+
+.buy-main input[type=button] {
+	font-size: 18px;
+	padding: 0 5px;
+}
+
+.pay {
+	width: 50px;
+	background: #64A8DD;
+	margin-left: 20px;
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 2px;
+	text-align: center;
+}

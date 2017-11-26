@@ -1,0 +1,104 @@
+.deal-nav {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #64A8DD;
+	color: #FFFFFF;
+}
+
+.deal-nav li {
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+.deal-mes {
+	width: 100%;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.deal-mes li {
+	float: left;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	width: 20%;
+}
+
+.bg {
+	background: #EDEDED;
+}
+
+.homelink {
+	width: 90%;
+	position: absolute;
+	bottom: 100px;
+	left: 5%;
+}
+
+.showon {
+	width: 65%;
+	background: #0c86e5;
+	height: 40px;
+	border: none;
+	outline: none;
+	margin-left: 18%;
+	color: #FFFFFF;
+	border-radius: 10px;
+	font-size: 14px;
+}
+.nav-right button{border-radius: 10px;height: 30px;}
+
+
+
+.pop {
+	width: 65%;
+	height: 180px;
+	position: fixed;
+	top: 30%;
+	left: 20%;
+	z-index: 99;
+	background: #FFFFFF;
+	font-size: 16px;
+	display: none;
+	border-radius: 10px;
+	
+}
+.pop p {
+	width: 100%;
+	padding-left: 25px;
+	margin-top: 25px;
+}
+.pop input {
+	color: #222222;
+	margin-top: 5px;		
+}
+.pop input[type =button],.pop input[type =submit]{color: #FFFFFF;}
+.sub,.add{width: 30px;background: #0C86E5;color: #FFFFFF;}
+.close{position: absolute;top: 20px;right: 20px;}
+.count{width: 40px;text-align: center;}
+
+#sure,#sure2,#sure3{
+	width: 50%;
+	line-height: 30px;
+	background: #0C86E5;
+	text-align: center;
+	height: 30px;
+	margin-left: 20%;	
+	color: #FFFFFF;
+	border: none;
+	outline: none;
+	
+}
+
+.all {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #003D74;
+	display: none;
+	opacity: .5;
+}

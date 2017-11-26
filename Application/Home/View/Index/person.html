@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" href="{:C('CSS_URL')}base.css" />
+    <link rel="stylesheet" type="text/css" href="{:C('CSS_URL')}person.css"/>
+    <script type="text/javascript" src="{:C('JS_URL')}jquery.min.js"></script>
+   
+   
+</head>
+<body>
+	<div id="app">
+		<div class="header">
+			个人
+		</div>
+		<div class="person-show">
+			<div class="balance">
+				账户余额:<span>{$hy["balance"]}</span>
+			</div>
+			<div class="balance2">
+				商城余额:<span>{$hy["shopbalance"]}</span>
+			</div>
+			<div class="balance2">
+				申购金额:<span>{$hy["freezebalance"]}</span>
+			</div>
+			<ul class="person-handle clear">
+				<li><a href="javascript:;"><button>商城余额转入</button></a></li>
+				<li class="handle"><a href="{:U('Deal/rechargeT')}"><button>充值</button></a></li>
+				<li class="handle"><a href="{:U('Index/recharge2')}"><button>提款</button></a></li>
+			</ul>
+		</div>
+		<div class="person-mes">
+			<ul class="person-item">
+				<a href="{:U('Index/personmsg')}">
+					<li class="person-list clear">
+						<p class="person-left">个人信息</p>
+						<p class="person-arrow"><img src="{:C('IMG_URL')}arrow-right.png" width="30"></p>				
+					</li>
+				</a>
+				<a href="{:U('Index/bankcar')}">
+					<li class="person-list clear">
+						<p class="person-left">银行卡管理</p>
+						<p class="person-arrow"><img src="{:C('IMG_URL')}arrow-right.png" width="30"></p>				
+					</li>
+				</a>
+				<!--<a href="{:U('Index/deal')}">-->
+				<a href="{:U('Public/tishi')}">
+					<li class="person-list clear">
+						<p class="person-left">成交查询</p>
+						<p class="person-arrow"><img src="{:C('IMG_URL')}arrow-right.png" width="30"></p>				
+					</li>
+				</a>
+				<!--<a href="{:U('Index/purchase')}">-->
+				<a href="{:U('Public/tishi')}">
+					<li class="person-list clear">
+						<p class="person-left">委托查询</p>
+						<p class="person-arrow"><img src="{:C('IMG_URL')}arrow-right.png" width="30"></p>				
+					</li>
+				</a>
+
+				<a href="{:U('Index/inventory')}">
+					<li class="person-list clear">
+						<p class="person-left">持仓查询</p>
+						<p class="person-arrow"><img src="{:C('IMG_URL')}arrow-right.png" width="30"></p>				
+					</li>
+				</a>
+				<!--<a href="{:U('Index/delivery')}">-->
+				<a href="{:U('Public/tishi')}">
+					<li class="person-list clear">
+						<p class="person-left">交割查询</p>
+						<p class="person-arrow"><img src="{:C('IMG_URL')}arrow-right.png" width="30"></p>				
+					</li>
+				</a>
+				<a href="{:U('Index/shengou')}">
+					<li class="person-list clear">
+						<p class="person-left">申请申购</p>
+						<p class="person-arrow"><img src="{:C('IMG_URL')}arrow-right.png" width="30"></p>				
+					</li>
+				</a>
+				<a href="{:U('Index/shengoucha')}">
+					<li class="person-list clear">
+						<p class="person-left">申购查询</p>
+						<p class="person-arrow"><img src="{:C('IMG_URL')}arrow-right.png" width="30"></p>				
+					</li>
+				</a>
+				<!--<a href="{:U('Index/address')}">-->
+				<a href="{:U('Public/tishi')}">
+					<li class="person-list clear">
+						<p class="person-left">收货地址</p>
+						<p class="person-arrow"><img src="{:C('IMG_URL')}arrow-right.png" width="30"></p>				
+					</li>
+				</a>
+				<!--<a href="{:U('Index/shopcar')}">-->
+				<a href="{:U('Public/tishi')}">
+					<li class="person-list clear">
+						<p class="person-left">购物车</p>
+						<p class="person-arrow"><img src="{:C('IMG_URL')}arrow-right.png" width="30"></p>				
+					</li>
+				</a>
+				<!--<a href="{:U('Index/shopcars')}">-->
+				<a href="{:U('Public/tishi')}">
+					<li class="person-list clear">
+						<p class="person-left">已购买</p>
+						<p class="person-arrow"><img src="{:C('IMG_URL')}arrow-right.png" width="30"></p>				
+					</li>
+				</a>
+				<a href="{:U('Index/logout')}">
+					<input type="button"  value="退出账号" class="exit">
+				</a>
+
+				<a href="#">
+					<li class="person-list clear">
+						<p class="person-left"></p>
+						<p class="person-arrow"></p>				
+					</li>
+					<li class="person-list clear">
+						<p class="person-left"></p>
+						<p class="person-arrow"></p>				
+					</li>
+				</a>
+			</ul>
+		</div>
+		<include file="Public:bottom" />
+	</div>
+</body>
+</html>

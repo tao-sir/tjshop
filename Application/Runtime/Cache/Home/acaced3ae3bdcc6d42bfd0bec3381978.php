@@ -1,0 +1,66 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html data-width="750">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=0">
+     <script src="<?php echo C('JS_URL');?>jquery.min.js" type="text/javascript" charset="utf-8"></script>
+     <script src="<?php echo C('JS_URL');?>rem.js"></script>
+    <title>天机电商</title>
+    <link rel="stylesheet" href="<?php echo C('CSS_URL');?>style.css">
+</head>
+<body>
+    <div class="shop-top">
+      <div class="shop-back">
+        <a href="shop2.html">
+            <img src="<?php echo C('IMGS_URL');?>back.png" alt="">
+        </a>
+      </div>
+        <div class="car">购物车</div>
+        <div class="shop-total">共<span class="total">0</span>元</div>
+        <div class="end">结算</div>
+     </div>
+     <div class="line"></div>
+      <ul class="item">
+        <li class="item-list clear">
+            <div class="list-left"><img src="<?php echo C('IMGS_URL');?>s1.png" alt=""></div>
+            <div class="list-center">
+                <p>黑血蜂蜜</p>
+                <p>选择规格：<span>500ml</span></p>
+                <p>选择数量：<span class="count">2</span></p>
+                <p>总价格：<span class="price">200</span></p>
+            </div>
+            <div class="list-right">
+                <p class="check">
+                	<span class="check-icr">
+                		
+                	</span>
+                </p>
+                <p class="car-del">删除</p>
+            </div>
+        
+        </li>
+         
+        
+        <div class="line"></div>
+    </ul>
+</body>
+ <script type="text/javascript">
+            	$('.check').click(function(){  
+            		 var count =$('.count').text()           		           		
+            		 var price = $('.price').text()  	
+            				$(this).children().toggle();           		          		           		            		 
+            		 		var m =count*price            		
+            			    $('.total').text(m)            	
+            			
+            		 
+            	});
+            	           	         	
+            	$('.car-del').click(function(){
+            		$(this).parent().siblings().remove();
+            		$(this).parent().remove();
+            		
+            	
+            		
+            	})
+            </script>
+</html>

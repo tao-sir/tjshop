@@ -1,0 +1,642 @@
+[ 2017-07-06T09:25:39+08:00 ] 123.52.73.199 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T09:25:43+08:00 ] 123.52.73.199 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = 'admin' AND `password` = '5390505d48b5612bcce623d440b3b69f' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T09:25:54+08:00 ] 123.52.73.199 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = 'admin' AND `password` = 'd40a32d889fab5d685bcdd6accb84dbf' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `user` WHERE ( FIND_IN_SET(1,upuserid) )  [ RunTime:0.0000s ]
+
+[ 2017-07-06T09:25:54+08:00 ] 123.52.73.199 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T09:25:54+08:00 ] 123.52.73.199 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T09:26:04+08:00 ] 123.52.73.199 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `user` WHERE `compname` = '张振玉公司' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE ( find_in_set(69,upuserid) )  [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T09:26:23+08:00 ] 123.52.73.199 /index.php/Admin/Index/member.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:member
+
+[ 2017-07-06T09:26:26+08:00 ] 123.52.73.199 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T09:26:26+08:00 ] 123.52.73.199 /index.php/Admin/Fund/fundSelect.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T09:26:28+08:00 ] 123.52.73.199 /index.php/Admin/Fund/zijin1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: form1tel D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 18 行.
+NOTIC: [8] Undefined variable: form1keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 20 行.
+NOTIC: [8] Undefined variable: form1data D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T09:26:30+08:00 ] 123.52.73.199 /index.php/Admin/Fund/zijin2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: form2tel D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\58d5c4429f6e9f6bcff473e98bd0d91d.php 第 21 行.
+NOTIC: [8] Undefined variable: form2keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\58d5c4429f6e9f6bcff473e98bd0d91d.php 第 23 行.
+NOTIC: [8] Undefined variable: form2data D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\58d5c4429f6e9f6bcff473e98bd0d91d.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T09:38:47+08:00 ] 123.52.73.199 /index.php/Admin/Fund/zijin1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: form1tel D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 18 行.
+NOTIC: [8] Undefined variable: form1keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 20 行.
+NOTIC: [8] Undefined variable: form1data D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\fdabd36f0f9e2c7327ae0d96d5a5c7bb.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T09:38:48+08:00 ] 123.52.73.199 /index.php/Admin/Fund/zijin3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: form3tel D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\1c979a59eaae0e7fe9599ee039f34591.php 第 18 行.
+NOTIC: [8] Undefined variable: form3keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\1c979a59eaae0e7fe9599ee039f34591.php 第 21 行.
+NOTIC: [8] Undefined variable: form3data D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\1c979a59eaae0e7fe9599ee039f34591.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T09:38:49+08:00 ] 123.52.73.199 /index.php/Admin/Fund/zijin3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: form3tel D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\1c979a59eaae0e7fe9599ee039f34591.php 第 18 行.
+NOTIC: [8] Undefined variable: form3keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\1c979a59eaae0e7fe9599ee039f34591.php 第 21 行.
+NOTIC: [8] Undefined variable: form3data D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\1c979a59eaae0e7fe9599ee039f34591.php 第 29 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T11:08:33+08:00 ] 125.47.58.21 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: admin D:\phpStudy\WWW\tjshop\Application\Admin\Controller\PublicController.class.php 第 9 行.
+
+[ 2017-07-06T11:08:33+08:00 ] 125.47.58.21 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T11:08:39+08:00 ] 125.47.58.21 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = 'admin' AND `password` = 'd40a32d889fab5d685bcdd6accb84dbf' AND `isadmin` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `user` WHERE ( FIND_IN_SET(1,upuserid) )  [ RunTime:0.0000s ]
+
+[ 2017-07-06T11:08:39+08:00 ] 125.47.58.21 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T11:08:39+08:00 ] 125.47.58.21 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T11:08:47+08:00 ] 125.47.58.21 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '天机'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T11:08:48+08:00 ] 125.47.58.21 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '天机'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T11:09:08+08:00 ] 125.47.58.21 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = '天机电商'  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T11:09:15+08:00 ] 125.47.58.21 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT `userid` FROM `user` WHERE `compname` = '天机' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE ( find_in_set(1,upuserid) )  [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','66') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','76') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','76') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','76') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','76') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 3 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1','69') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `compname` FROM `user` WHERE `userid` IN ('1') AND `lev` = 4 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T12:29:06+08:00 ] 123.52.73.199 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-06T12:29:06+08:00 ] 123.52.73.199 /index.php/Admin/Index/client.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user` WHERE `usercode` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 196 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\WWW\tjshop\Application\Admin\Controller\IndexController.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: compname D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 23 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 24 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 104 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 155 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 160 行.
+NOTIC: [8] Undefined variable: is_succeed D:\phpStudy\WWW\tjshop\Application\Runtime\Cache\Admin\160ce37aed002e34e867183f8285e279.php 第 162 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
